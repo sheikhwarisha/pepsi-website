@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar{
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-direction: row;
+flex-wrap: wrap;
+align-content: center;
+text-transform: uppercase;
+background-color: #0065c3;
+padding: 50px;
+color: white;
+font-weight: bold;
+position: static;
+
+}
+.navbar-left{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.navbar-item{
+    margin-left: 25px;
+    cursor: pointer;
+
+}
+.navbar-right
+.navbar-item {
+border-radius: 30px;
+border: 2px solid white;
+padding: 5px 25px;
+}
+.videoone{
+    position: absolute;
+    top: 75%;
+    left: 50%; 
+}
+.videotwo{
+    position: absolute;
+    top: 75%;
+    left: 75%; 
+}
+.videotext1{
+    position: absolute;
+    top: 95%;
+    left: 50%; 
+    color: white;
+} 
+ .videotext2{
+    position: absolute;
+    top: 95%;
+    left: 75%; 
+    color: white;
+} 
+.section1{
+    background-image: url(https://www.pepsi.com/en-us/uploads/images/nitro/Desktop_Background.png );
+    background-size: cover;
+    position: relative;
+   left: 4px; 
+   top:800px ;
+   height: 800px;
+}
+.col2{
+  position: absolute;
+  left: 55%;
+  top:300px ;
+}
+
+.section2-col2{
+    position: absolute;
+    left:45% ;
+    top: 1700px;
+}
+.section3{
+    background-image: url(./assets/apple-coke.png);
+    background-color: blue;
+    height: 800px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.section3 h1 h2{
+    font-size: 200px;
+    color: white;
+}
+.section5{
+    background-color: blue;
+}
+.section5 h1{
+    font-size: 100px;
+    color: white;
+    font-weight: bold;
+}
+ .section5col2{
+    position: absolute;
+    left: 55%;
+    top: 450%;
+    font-size: 500px;
+}
+.section6{
+    background-color: #0065c3;
+}
